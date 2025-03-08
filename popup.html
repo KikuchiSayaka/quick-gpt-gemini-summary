@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Copy to ChatGPT | 英文をChatGPTで日本語要約</title>
+    </head>
+    <body>
+        <h1>英文ページをChatGPTで要約</h1>
+        <p>
+            以下のボタンをクリックすると、現在開いている英語ページの本文を生成AIが要約します。
+        </p>
+        <p id="attentionMsg">
+            ※ 必ず事前にChatGPTかGoogleアカウントにログインした状態でお試しください。
+        </p>
+        <label id="aiSelectLabel" for="aiSelect">使用する生成AI:</label>
+        <select id="aiSelect">
+            <option value="chatgpt">ChatGPT</option>
+            <option value="gemini">Gemini</option>
+        </select>
+        <button id="copyTextBtn">生成AIで日本語要約</button>
+        <style>
+            body {
+                width: 250px;
+                height: auto;
+                opacity: 0.8;
+                background-color: #222222;
+                padding: 8px 8px 16px;
+                border-radius: 8px;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+            }
+            h1 {
+                font-size: 14px;
+                font-weight: bold;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 13px;
+                font-weight: normal;
+                margin: 8px auto;
+            }
+            #attentionMsg {
+                /* color:#ff8585; */
+                font-size: 12px;
+            }
+            #aiSelectLabel {
+                width: 90%;
+                text-align: initial;
+                font-size: 12px;
+                font-weight: 700;
+                margin: 8px auto 0;
+            }
+            #aiSelect {
+                width: 90%;
+                font-size: 14px;
+                font-weight: 700;
+                padding: 8px 10px;
+                margin: 2px auto 8px;
+                border-radius: 4px;
+                background-color: #fff;
+                color: #222222;
+            }
+            #copyTextBtn {
+                width: 85%;
+                padding: 8px 10px;
+                background-color: #0054d1;
+                border: solid 1px #0054d1;
+                cursor: pointer;
+                border-radius: 50vw;
+                color: #fff;
+                font-size: 12px;
+                font-weight: bold;
+                margin: 20px auto;
+                text-align: center;
+                box-shadow: 0 8px 10px rgba(134, 134, 134, 0.2);
+            }
+            #copyTextBtn:hover {
+                opacity: 0.5;
+            }
+        </style>
+        <script src="popup.js"></script>
+    </body>
+</html>
