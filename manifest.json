@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Quick GPT/Gemini Summary | 英文をChatGPT/Geminiで日本語要約",
-    "version": "1.0",
+    "version": "1.1.0",
     "permissions": ["activeTab", "scripting", "storage"],
     "background": {
         "service_worker": "background.js"
