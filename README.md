@@ -2,7 +2,9 @@
 
 🧠 Quickly send text to ChatGPT and get a Japanese summary automatically!
 
-[Chrome Web Store](https://chromewebstore.google.com/detail/quick-gptgemini-summary-%E8%8B%B1/mojophfobogmbdjnfohfjoleaeillbmh?hl=ja&authuser=4)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mojophfobogmbdjnfohfjoleaeillbmh.svg)](https://chromewebstore.google.com/detail/mojophfobogmbdjnfohfjoleaeillbmh)
+
+![Chrome Web Store](https://lh3.googleusercontent.com/ELrWFz2CRx4OWuvcQ6bCNPaSKuALDVBlge45NaFohi2QDQVv0MQBvKV5ZdyflRL-SmcoPhM_ZK2PnPxMu8yLu3Wt0A=s1280-w1280-h800)
 
 ---
 
