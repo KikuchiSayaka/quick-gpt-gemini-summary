@@ -22,7 +22,7 @@ chrome.storage.local.get("copiedText", async (data) => {
         try {
             const textarea = document.querySelector("#prompt-textarea > p");
             const textareaWrapper = await waitForElement(
-                "#composer-background textarea"
+                'textarea[placeholder="質問してみましょう"]'
             );
 
             if (textarea && textareaWrapper) {
